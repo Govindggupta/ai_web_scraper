@@ -5,9 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "beautifulsoup4>=4.13.4",
     "dotenv>=0.9.9",
     "langchain>=0.3.24",
+    "langchain-community>=0.3.23",
+    "langchain-openai>=0.3.14",
+    "nest-asyncio>=1.6.0",
     "openai>=1.76.0",
+    "playwright>=1.51.0",
     "selenium>=4.31.0",
     "streamlit>=1.44.1",
 ]
