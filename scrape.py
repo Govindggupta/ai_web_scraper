@@ -3,14 +3,13 @@ from bs4 import BeautifulSoup
 import asyncio
 import nest_asyncio
 
-# Apply nest_asyncio to handle asyncio run issues in Python 3.12 (Windows)
 nest_asyncio.apply()
 
 async def scrape_website(website):
     print("Starting website scraping...")
     
     try:
-        # Set a user agent to identify our requests
+        
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
